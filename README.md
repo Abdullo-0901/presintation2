@@ -74,9 +74,20 @@ Using a let variable before it is declared will result in a ReferenceError..<br>
 
 The variable is in a "temporal dead zone" from the start of the block until it is declared:.<br>
 ![](./img/Screenshot_6.png)
-ягон тағйирёбанда дар даруни  Function() хамааш local scope meshavad.<br>
+hamai тағйирёбанда дар даруни  Function() хамааш local scope meshavad.<br>
 ![](./img/Screenshot_7.png)
 gayr az gunction declaration yagon functiuon nametavonad hoisting shavand; .<br>
  > <h1>  referenceError</h1>
  ![](./img/Screenshot_8.png)
- 
+
+
+ > RECURSION
+ Амали функсияе, ки худро даъват мекунад, рекурсия барои ҳалли мушкилоте истифода мешавад, ки дорои зермасъалаҳои хурдтар мебошанд. Функсияи рекурсивӣ метавонад ду вурудро қабул кунад: ҳолати асосӣ (рекурсияро анҷом медиҳад) ё ҳолати рекурсивӣ (рекурсияро дубора оғоз мекунад). <br>
+ Функсияи рекурсивӣ то он даме, ки шарт иҷро шавад, худро даъват мекунад
+Рамзи зерини Python функсияеро муайян мекунад, ки рақамро мегирад, онро чоп мекунад ва сипас худро бо арзиши рақам -1 боз даъват мекунад. Он то он даме, ки адад ба 0 баробар шавад, идома меёбад ва дар ин ҳолат он қатъ мешавад.
+![](./img/Screenshot_9.png)
+![](./img/Screenshot_10.png)
+![](./img/download.png)
+> What is closure in JavaScript? 
+Closure in JavaScript is a form of lexical scoping used to preserve variables from the outer scope of a function in the inner scope of a function. Lexical scoping is the process used to define the scope of a variable by its position in the source code.
+![](./img/Screenshot_11.png)
